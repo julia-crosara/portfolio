@@ -1,0 +1,97 @@
+body {
+    font-family: 'Lato', sans-serif;
+    color: #2d3c49;
+    background-color: rgba(0,0,0,.04);
+}
+
+header {
+    color: #0872ba;
+    padding: 0.5em 0 0 0.5em;
+    font-size: 1.5em;
+    margin-left: 0.5em;
+}
+
+h2 {
+    color: #0872ba;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+h3 {
+    color: #0872ba;
+    font-size: 1.5em;
+}
+
+h5 {
+    color: #d16116;
+}
+
+a {
+    color: #7d97ad;
+}
+
+img {
+    width: 100%;
+}
+
+.container {
+    padding: 0;
+    background-color: #fff;
+}
+
+/* Navigation */
+.navbar {
+    background-color: #0872ba;
+}
+
+.navbar-dark .navbar-brand {
+    font-size: 1.8em;
+    margin-left: 0.4em;
+}
+
+.nav-item {
+    font-size: 1.2em;
+    padding: 0 0.4em;
+    text-transform: uppercase;
+}
+
+/* Portfolio */
+.card-deck {
+    padding: 0.5em;
+}
+
+.card-footer {
+    font-size: 1.2em;
+}
+
+/* About */
+#about {
+    background-color: #d6edfb;
+    padding: 1.7em;
+    text-align: justify;
+}
+
+/* Contact */
+#contact {
+    text-align: center;
+    background-color: #0872ba;
+}
+
+#contact a {
+    text-decoration: none;
+    color: #0872ba;
+}
+
+.btn {
+    margin: 1.5em 0 1em;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding-bottom: .15em;
+}
+
+.footer-bg {
+    background-color: #0872ba;
+}
