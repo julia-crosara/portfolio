@@ -1,2 +1,2 @@
 # Portfolio
-Working progress. I'll be building it over the next several months.
+Work in progress. I'll be ready to launch in Sept.
