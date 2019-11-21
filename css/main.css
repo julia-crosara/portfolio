@@ -1,29 +1,35 @@
 body {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
     color: #2d3c49;
-    background-color: rgba(0,0,0,.04);
+    /* background-color: #f7f6f6; */
+    height: 100%;
+    font-size: 1.2rem;
+    /* background-color: #e8f7f2; */
 }
 
-header {
-    color: #0872ba;
+
+/* header {
+    color: #4f9da6;
     padding: 0.5em 0 0 0.5em;
     font-size: 1.5em;
     margin-left: 0.5em;
+} */
+
+h1 {
+    color: #cb2d1e;
+    font-family: 'Sacramento', cursive;
+    font-size: 4rem;
 }
 
 h2 {
-    color: #0872ba;
+    color: #fa9d77;
+    font-size: 2rem;
     text-transform: uppercase;
-    letter-spacing: 1px;
 }
 
-h3 {
-    color: #0872ba;
-    font-size: 1.5em;
-}
 
 h5 {
-    color: #d16116;
+    color: #4f9da6;
 }
 
 a {
@@ -34,56 +40,110 @@ img {
     width: 100%;
 }
 
-.container {
-    padding: 0;
-    background-color: #fff;
+hr {
+    color: #4f9da6;
+    border-top: 4px dotted ;
+    width: 20%;
 }
+
+ul,li { 
+    list-style-type: none;
+    list-style-position:inside;
+    margin:0;
+    padding:0; }
+
 
 /* Navigation */
 .navbar {
-    background-color: #0872ba;
+    background-color: #4f9da6;
 }
 
-.navbar-dark .navbar-brand {
-    font-size: 1.8em;
-    margin-left: 0.4em;
+.navbar-brand {
+    text-transform: uppercase;
+    color: #e8f7f2;
 }
 
 .nav-item {
     font-size: 1.2em;
     padding: 0 0.4em;
-    text-transform: uppercase;
 }
 
-/* Portfolio */
-.card-deck {
-    padding: 0.5em;
+#top {
+    color: white;
+    font-size: 1.75rem;
+}
+
+/* Intro */
+
+.hello {
+    font-size: 3rem;
+    color: #dd424c;
+}
+
+.intro {
+    border-top: 4px dotted #88dac0;
+    width: 20%;
+}
+
+.about p {
+    text-align: justify;
+}
+
+/* Recent projects */
+
+.recent {
+    color: #4a809c;
+}
+
+.card-deck .card {
+    margin: .5rem 0;
 }
 
 .card-footer {
     font-size: 1.2em;
 }
 
-/* About */
-#about {
-    background-color: #d6edfb;
-    padding: 1.7em;
+/* Earlier work */
+
+.earlier-bg {
+    background-color: #fffaf3;
+}
+
+.title {
+    font-size: 1.25rem;
+    color: #99686d;
+}
+
+/* Testimonials */
+#testimonials {
+    /* padding: 1.7em; */
     text-align: justify;
+}
+
+.test-header {
+    color: #4f9da6;
+    text-transform: uppercase;
+}
+
+.client-name {
+    font-size: 1rem;
+    font-style: italic;
+}
+
+.test-bg {
+    background-color: #f5f9fa;
 }
 
 /* Contact */
 #contact {
     text-align: center;
-    background-color: #0872ba;
+    /* background-color: #d9eeec; */
+    /* background-color: #74b8c0; */
 }
 
 #contact a {
     text-decoration: none;
-    color: #0872ba;
-}
-
-.btn {
-    margin: 1.5em 0 1em;
+    color: #fff;
 }
 
 /* Footer */
@@ -92,6 +152,6 @@ footer {
     padding-bottom: .15em;
 }
 
-.footer-bg {
-    background-color: #0872ba;
-}
+/* .footer-bg {
+    background-color: #e09176;
+} */
