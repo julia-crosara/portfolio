@@ -1,50 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="css/main.css">
-    <!-- Google fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
-    <title>Julia Crosara: Front-End Developer</title>
-</head>
-<body>
-    <div class="container">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="css/main.css">
+        <!-- Google fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Sacramento|Source+Sans+Pro:400,700&display=swap" rel="stylesheet">
+        <title>Julia Crosara: Web Designer</title>
+    </head>
+
+    <body>
         <!-- Navigation -->
         <nav class="navbar navbar-dark">
-            <a class="navbar-brand" href="#">JULIA CROSARA</a>
+            <a class="navbar-brand pl-1" id="top">Julia Crosara</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link" href="#about">about</a>
+                        <a class="nav-link" href="#projects">Projects</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#contact">contact</a>
+                        <a class="nav-link" href="#testimonials">Testimonials</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
                     </li>
                 </ul>
             </div>
         </nav>
-        <img src="images/blue-banner.png" alt="Blue banner graphic">
-        <header>Featured Front-End Work</header>
+        <img src="images/hex-header.png" alt="Header">
         <main>
-            <section class="portfolio">
-                <!-- Row of 3 projects -->
-                <div class="card-deck">
+            <div class="container">
+                <div class="hello p-3">
+                <!-- <h1 class="pt-4">Hello, I'm Julia</h1> -->
+                <!-- <hr class="intro"> -->
+                    <p class="pt-3">Hello, I'm Julia. I am a web designer & developer living in the Seattle area. </p>
+                </div>
+                
+                <section id="projects" class="p-3">
+                    <h2 class="recent">Recent Projects</h2>
+                    <div class="card-deck px-0">
+                        <div class="col-lg-4 col-md-6">
+                            <div class="card mb-4 shadow-sm">
+                                <img src="images/cover-restaurant-app.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Restaurant Reviews App</h5>
+                                    <p class="card-text">Project for Udacity's Front-End Developer program</p>
+                                </div>
+                                <div class="card-footer">
+                                    <small class="text-muted"><a href="projects/restaurant-app" target="_blank">Link to project</a></small>
+                                </div>
+                            </div>
+                        </div>
                     <div class="col-lg-4 col-md-6">
                         <div class="card mb-4 shadow-sm">
-                            <img src="images/cover-book-app.png" class="card-img-top" alt="Stack of books">
+                            <img src="images/cover-concentration-game.jpg" class="card-img-top" alt="Stack of books">
                             <div class="card-body">
-                                <h5 class="card-title">Book App Prototype</h5>
-                                <p class="card-text">Sunt in culpa qui officia deserunt mollit anim id est laborum. Deserunt mollit.</p>
+                                <h5 class="card-title">Concentration Game 2.0</h5>
+                                <p class="card-text">A modern take on a classic card game.</p>
                             </div>
                             <div class="card-footer">
-                                <small class="text-muted">Link to project on GitHub</small>
+                                <small class="text-muted"><a href="https://juliacrosara.github.io/concentration-game/" target="_blank">Link to project</a></small>
                             </div>
                         </div>
                     </div>
@@ -53,43 +75,133 @@
                             <img src="images/cover-lt-website.png" class="card-img-top" alt="Lilian Terry and Max Roach, late 1960s">
                             <div class="card-body">
                                 <h5 class="card-title">Lilian Terry Website</h5>
-                                <p class="card-text">Personal site for jazz singer Lilian Terry. Built with HTML, CSS, and Bootstrap.</p>
+                                <p class="card-text">Personal site for jazz singer Lilian Terry.</p>
                             </div>
                             <div class="card-footer">
-                                <small class="text-muted">Link to project on GitHub</small>
+                                <small class="text-muted"><a href="http://www.lilianterry.com" target="_blank">Link to website</a></small>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6">
-                        <div class="card mb-4 shadow-sm">
-                            <img src="images/placeholder.png" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">Project 3</h5>
-                                <p class="card-text">Sunt in culpa qui officia deserunt mollit anim id est laborum. Deserunt mollit.</p>
+                    </div> <!-- end of card deck -->
+                </section>
+            </div>
+            
+            <!-- Earlier work -->
+            <section class="earlier-bg py-3">
+                <div class="container pl-3 pb-0">
+                    <h2 class="pl-3">Earlier Work</h2>
+                    <div class="card-deck pl-3">   
+                        <div class="col-lg-4 col-md-6">
+                            <div class="card mb-4 shadow-sm">
+                            <img src="images/cover-il-website.png" class="card-img-top" alt="...">
+                                <div class="card-body">                          
+                                    <p class="card-text title">Immigrant Lives in "the OC" and Beyond</p>
+                                </div>
+                                <div class="card-footer">
+                                    <small class="text-muted"><a href="http://www.lib.uci.edu/sites/all/exhibits/immigrant/index.php" " target="_blank">Link to website</a></small>
+                                </div>
                             </div>
-                            <div class="card-footer">
-                                <small class="text-muted">Link to project on GitHub</small>
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <div class="card mb-4 shadow-sm">
+                                <img src="images/cover-darwin.jpg" class="card-img-top" alt="Stack of books">
+                                <div class="card-body">
+                                    <p class="card-text title">So Simple a Beginning: 150 Years of Darwin</p>
+                                </div>
+                                <div class="card-footer">
+                                    <small class="text-muted"><a href="https://www.lib.uci.edu/sites/all/exhibits/darwin/index.php" target="_blank">Link to website</a></small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <div class="card mb-4 shadow-sm">
+                                <img src="images/cover-rc.png" class="card-img-top" alt="Lilian Terry and Max Roach, late 1960s">
+                                <div class="card-body">
+                                    <p class="card-text title">Stage to Stage: The Theatrical Work of Robert Cohen</p>
+                                </div>
+                                <div class="card-footer">
+                                    <small class="text-muted"><a href="https://www.lib.uci.edu/sites/all/exhibits/stage/index.php" target="_blank">Link to website</a></small>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div> <!-- end of .card-deck -->
-            </section> <!-- end of portfolio section -->
-            <section id="about">
-                <h3>About</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </div> <!-- end of earlier work: exhibits -->
             </section>
-            <section id="contact">
-                <button type="button" class="btn btn-light btn-lg"><a href="mailto:juliacrosara@gmail.com?subject=Contact">Contact me by email</a></button>
-            </section>
+            <div class="test-bg">
+                <div class="container">
+                <section id="testimonials" class="container p-3">
+                    <h3 class="test-header pt-3">Testimonials</h3>
+
+                    <p>Julia Crosara worked as a graphic web designer on my team while I was Product Manager of Computer Services at Kinko's. Julia interfaced with our back-end web design team and with the front-end strategists to very successfully fulfill graphic and technical requirements to both sides' complete satisfaction. She showed great capacity to understand user needs, and management and technical requirements, and produced the desired products without fuss in an extremely timely manner under great time constriction.</p>
+
+                    <p>She was extremely personable and easy to get along with. When handed significant handicaps in technical equipment, she was able to respond flexibly and without complaint. Often working from home, we were still able to build faith in her reliability as she met deadline after deadline with exacting and satisfactory output. In fact, when put in a significant disadvantage by having to redo work of a previous artist and bring the team back on schedule, she responded
+                    gracefully and successfully to the challenge.</p>
+
+                    <p>It was a great pleasure working with Julia. I heartily recommend her to potential entrepreneurial clients due to her professionalism, trustworthiness, reliability, motivation and character.</p>
+
+                    <p class="client-name pb-3">H. Steele, Former Product Manager of Computer Services, Kinko's Corporate Headquarters</p>
+
+                    <hr>
+
+                    <p class="pt-3">I love working with Julia Crosara! She’s talented, creative, curious, funny and totally professional.</p>
+
+                    <p>Equally important is what she is not – Julia Crosara is not a prima donna and she is not a flake. She gets the “big picture” quickly and understands & respects the realities a creative director is working with. Unlike many otherwise good
+                    designers, Julia is always part of the solution – never a whole new problem. And she never misses a deadline.</p>
+
+                    <p>Julia inspires me.</p>
+
+                    <p>I am so glad to have found her and – if you’re looking for an excellent designer who you can be happy to work with on your most important projects – I believe you will be too.</p>
+
+                    <p class="client-name pb-3">P. Robertie, Creative Director</p>
+
+                    <hr>
+
+                    <p class="pt-3">Julia is a fabulous graphics/web/print design artist. For years, I’ve been working to create a new logo for AssistU, and none of the graphics people I retained got the idea of what I wanted. Frustrated, I put it off for ages. I finally decided to talk with Julia and found in her a person who got me, my concept, and who has consistently worked proactively to help me redesign the logo to support my brand.</p>
+
+                    <p class="client-name pb-3">S. Brice, President & Chief Visionary Officer</p>
+
+                    <hr>
+
+                    <p class="pt-3">I was struggling to take my company to the next level. I needed a marketing makeover; new website, printed materials - everything. I was tired of spending money on fancy design work that didn't communicate my message. This time I
+                    wanted it to be perfect. Julia Crosara asked questions no one had ever asked me before. First she got to know me, then she got to know my company. Her first design draft took my breath away. She nailed it! After some minor tweaking, I have a graphic design that communicates my message perfectly and instantaneously. Thank you Julia, for taking me to the next level.</p>
+
+                    <p>If you've been looking for a designer that will over-deliver, look no further.</p>
+
+                    <p class="client-name pb-3">T. Artz, Chief Operations Officer</p>
+
+                    <hr>
+
+                    <p class="pt-3">I'm still constantly smiling as I update sections because this site is so beautiful. It really is just exactly what we needed and wanted. You do such beautiful work, and I'm glad we had someone design it who understands the organization and its mission. I think that really comes through in the design. It's just gorgeous, and I can't wait for the rest of the team to see it!</p>
+
+                    <p class="client-name pb-3">S. Hogan, Communications Consultant</p>
+
+                    <hr>
+
+                    <p class="pt-3">Julia Crosara began working for me in 2001 and is still a great source of insight and direction for my company, Aware Toys. In 2001, my company was in the start up position and required a logo, marketing materials, illustrations for a children's book, and a web site. Julia had all of the abilities required to market our new product, along with many other talents.</p>
+
+                    <p>Julia took the time to listen and learn about my business and future goals. The work she produced was professional, timely, and brought together all aspects of the creative marketing person I was looking for to develop my ideas and concepts. Although we work at a distance, the relationship we have developed will continue, due to her being honest, reliable and communicative.</p>
+
+                    <p>I give Julia my highest recommendation and know she will continue to support and creatively develop many other businesses.</p>
+
+                    <p class="client-name pb-3">C. Click, President of Aware Toys, Inc.</p>
+                </section>
+            </div>
+                </div>
+                <section id="contact" class="p-5">
+                    <a href="https://github.com/juliacrosara" target="blank"  class="btn btn-secondary btn-lg mx-1" role="button">Github</a>
+                    <a href="mailto:juliacrosara@gmail.com?subject=Contact" target="blank"  class="btn btn-warning btn-lg mx-1" role="button">Email</a>
+                    <a href="https://www.linkedin.com/in/julia-crosara" target="blank"  class="btn btn-primary btn-lg mx-1" role="button">LinkedIn</a>
+                </section>
+            </div>
         </main>
-        <footer class="footer-bg">
-            <p><small>© Julia Crosara. All Rights Reserved.</small></p>
-        </footer>
-    </div> <!-- end of .container -->
-    <!-- Bootstrap Scripts -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-</body>
+            <footer class="footer-bg">
+                <p class="pt-2"><small>© Julia Crosara. All Rights Reserved.</small></p>
+            </footer>
+        </div>
+        <!-- Bootstrap Scripts -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    </body>
+
 </html>
