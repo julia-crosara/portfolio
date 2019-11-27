@@ -1,34 +1,24 @@
 body {
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: "Source Sans Pro", sans-serif;
     color: #2d3c49;
-    /* background-color: #f7f6f6; */
     height: 100%;
     font-size: 1.2rem;
-    /* background-color: #e8f7f2; */
 }
 
-
-/* header {
-    color: #4f9da6;
-    padding: 0.5em 0 0 0.5em;
-    font-size: 1.5em;
-    margin-left: 0.5em;
-} */
-
 h1 {
-    color: #cb2d1e;
-    font-family: 'Sacramento', cursive;
     font-size: 4rem;
+    color: #dd424c;
+    font-family: "Sacramento", cursive;
 }
 
 h2 {
     color: #fa9d77;
     font-size: 2rem;
     text-transform: uppercase;
+    padding: 3%;
 }
 
-
-h5 {
+h3 {
     color: #4f9da6;
 }
 
@@ -42,16 +32,17 @@ img {
 
 hr {
     color: #4f9da6;
-    border-top: 4px dotted ;
+    border-top: 4px dotted;
     width: 20%;
 }
 
-ul,li { 
+ul,
+li {
     list-style-type: none;
-    list-style-position:inside;
-    margin:0;
-    padding:0; }
-
+    list-style-position: inside;
+    margin: 0;
+    padding: 0;
+}
 
 /* Navigation */
 .navbar {
@@ -73,30 +64,35 @@ ul,li {
     font-size: 1.75rem;
 }
 
-/* Intro */
+/* Header */
 
-.hello {
-    font-size: 3rem;
-    color: #dd424c;
+#header {
+    text-align: center;
 }
 
-.intro {
-    border-top: 4px dotted #88dac0;
+.intro-hr {
+    border-top: 4px dotted #e69d11;
     width: 20%;
 }
 
-.about p {
-    text-align: justify;
+.jc {
+    max-width: 200px;
+    max-height: 200px;
+    border: 2px solid white;
+    display: inline;
 }
 
-/* Recent projects */
+/* Recent Projects */
+#projects {
+    text-align: center;
+}
 
 .recent {
     color: #4a809c;
 }
 
 .card-deck .card {
-    margin: .5rem 0;
+    margin: 0;
 }
 
 .card-footer {
@@ -104,9 +100,9 @@ ul,li {
 }
 
 /* Earlier work */
-
 .earlier-bg {
     background-color: #fffaf3;
+    text-align: center;
 }
 
 .title {
@@ -114,9 +110,25 @@ ul,li {
     color: #99686d;
 }
 
+/* Print Samples */
+#print-samples {
+    text-align: center;
+    padding-bottom: 5%;
+}
+
+.carousel-inner img {
+    max-width: 800px;
+    height: auto;
+    margin: auto;
+}
+
 /* Testimonials */
 #testimonials {
-    /* padding: 1.7em; */
+    text-align: center;
+    padding: 0 3%;
+}
+
+#testimonials p {
     text-align: justify;
 }
 
@@ -137,9 +149,8 @@ ul,li {
 /* Contact */
 #contact {
     text-align: center;
-    /* background-color: #d9eeec; */
-    /* background-color: #74b8c0; */
 }
+
 
 #contact a {
     text-decoration: none;
@@ -151,7 +162,3 @@ footer {
     text-align: center;
     padding-bottom: .15em;
 }
-
-/* .footer-bg {
-    background-color: #e09176;
-} */
