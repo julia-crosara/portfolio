@@ -20,6 +20,7 @@ h2 {
 
 h5 {
     color: #4f9da6;
+    line-height: 1.5;
 }
 
 a {
@@ -82,7 +83,8 @@ li {
     display: inline;
 }
 
-/* Recent Projects */
+/* Recent front-end projects */
+
 #projects {
     text-align: center;
 }
