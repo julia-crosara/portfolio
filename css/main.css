@@ -6,9 +6,9 @@ body {
 }
 
 h1 {
-    font-size: 4rem;
-    color: #dd424c;
-    font-family: "Sacramento", cursive;
+    font-size: 3.3rem;
+    color: #de6564;
+    font-family: 'Cormorant Infant', serif;
 }
 
 h2 {
@@ -19,8 +19,7 @@ h2 {
 }
 
 h5 {
-    color: #4f9da6;
-    line-height: 1.5;
+    color: #eb7059;
 }
 
 a {
@@ -90,7 +89,7 @@ li {
 }
 
 .recent {
-    color: #4a809c;
+    color: #37a4b3;
 }
 
 .card-deck .card {
