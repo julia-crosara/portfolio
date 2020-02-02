@@ -6,8 +6,8 @@ body {
 }
 
 h1 {
-    font-size: 3.75rem;
-    color: #de6564;
+    font-size: 4rem;
+    color: #4f9da6;
     font-family: 'Cormorant Infant', serif;
 }
 
@@ -45,7 +45,8 @@ li {
 
 /* Navigation */
 .navbar {
-    background-color: #4f9da6;
+    background-color:#07569e;
+    /* background-color: #544175; */
 }
 
 .navbar-brand {
