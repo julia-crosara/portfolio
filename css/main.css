@@ -1,18 +1,19 @@
 body {
-    font-family: "Source Sans Pro", sans-serif;
     color: #2d3c49;
     height: 100%;
     font-size: 1.2rem;
+    font-family: 'Lato', sans-serif;
 }
 
 h1 {
-    font-size: 4rem;
-    color: #4f9da6;
-    font-family: 'Cormorant Infant', serif;
+    font-size: 3.5rem;
+    color: #e56b46;
+    font-family: 'Mate', serif;
+
 }
 
 h2 {
-    color: #fa9d77;
+    color: #70a5c5;
     font-size: 2.2rem;
     padding: 3%;
 }
@@ -30,9 +31,9 @@ img {
 }
 
 hr {
-    color: #4f9da6;
-    border-top: 4px dotted;
-    width: 20%;
+    color: #fdb127;
+    border-top: 6px dotted;
+    width: 15%;
 }
 
 ul,
@@ -45,13 +46,11 @@ li {
 
 /* Navigation */
 .navbar {
-    background-color:#07569e;
-    /* background-color: #544175; */
+    background-color: #a13a37;
 }
 
 .navbar-brand {
-    text-transform: uppercase;
-    color: #e8f7f2;
+    color: #fff;
 }
 
 .nav-item {
@@ -89,7 +88,7 @@ li {
 }
 
 .recent {
-    color: #37a4b3;
+    color: #e56b46;
 }
 
 .card-deck .card {
@@ -106,9 +105,8 @@ li {
     text-align: center;
 }
 
-.title {
-    font-size: 1.25rem;
-    color: #99686d;
+.earlier {
+    color: #e56b46;
 }
 
 /* Print Samples */
@@ -134,7 +132,7 @@ li {
 }
 
 .test-header {
-    color: #4f9da6;
+    color: #70a5c5;
 }
 
 .client-name {
@@ -143,7 +141,7 @@ li {
 }
 
 .test-bg {
-    background-color: #f5f9fa;
+    background-color: #edf3f7;
 }
 
 /* Contact */
