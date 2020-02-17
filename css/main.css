@@ -6,8 +6,8 @@ body {
 }
 
 h1 {
-    font-size: 3.5rem;
-    color: #e56b46;
+    font-size: 3.75rem;
+    color: #f38d6d;
     font-family: 'Mate', serif;
 
 }
@@ -19,7 +19,7 @@ h2 {
 }
 
 h5 {
-    color: #de6564;
+    color: #99968f;
 }
 
 a {
@@ -46,7 +46,7 @@ li {
 
 /* Navigation */
 .navbar {
-    background-color: #a13a37;
+    background-color: #3888b9;
 }
 
 .navbar-brand {
@@ -101,7 +101,7 @@ li {
 
 /* Earlier work */
 .earlier-bg {
-    background-color: #fffaf3;
+    /* background-color: #fffaf3; */
     text-align: center;
 }
 
