@@ -1,4 +1,3 @@
 # Portfolio
 
-- Samples of my work
-- Testimonials
+Samples of my work and testimonials
