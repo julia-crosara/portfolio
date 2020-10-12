@@ -4,15 +4,15 @@ html {
 
 
 body {
-    color: #656565;
+    color: #525151;
+    /* background-color: #f5efef; */
     height: 100%;
     font-size: 1.3rem;
     font-family: 'Lato', sans-serif;
 }
 
 h1 {
-    color: #006666;
-    line-height: 1.7;
+    color: #479fa8;
 }
 
 h2 {
@@ -35,6 +35,7 @@ img {
 
 a {
     color: #5584a1;
+    font-size: 1.2rem;;
 }
 
 .container {
@@ -52,29 +53,18 @@ a {
     border: 0;
 }
 
-.parallax {
-  /* The image used */
-  background-image: url("images/jc-forest.png");
-
-  /* Full height */
-  height: 100%;
-
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-
 /* Navigation */
 
-nav {
-    background-color: #006666!important;
+.bg-info {
+  background-color: #1a6d8f!important;
 }
 
-.bg-dark {
-    background-color: #006666!important;
+.nav-link {
+  font-size: 1.5rem;
+}
+
+.navbar-brand {
+  font-size: 2rem;;
 }
 
 a.nav-link {
@@ -92,20 +82,16 @@ a.nav-link {
     line-height: 1.7;
 }
 
-.stats {
-    background-color: #fff5db;
-    border-radius: 6px;
-    font-size: 1.4rem;
-}
-
 /* About */
 
-
+.jc-title {
+  background-color:  #479fa8;
+}
 
 /* portfolio */
 
 #portfolio {
-    background-color: #efe9dd;
+    background-color: #f2eade;
 }
 
 .card {
@@ -120,9 +106,10 @@ a.nav-link {
     margin-bottom: 0;
 }
 
-/* Testimonials */
-#testimonials {
+/* Recommendations */
+#recommendations {
     padding: 0 3%;
+    /* background-color:#f0f5eb; */
 }
 
 p {
@@ -142,7 +129,7 @@ p {
 /* Contact */
 
 .contact {
-    background-color: #efe9dd;
+    /* background-color: #efe9dd; */
     text-align: center;
     margin-bottom: 2%;
 }
