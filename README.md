@@ -1,5 +1,5 @@
 # Portfolio
 
-Samples of my work and testimonials
+Samples and testimonials
 
 https://julia-crosara.github.io/portfolio/
